@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ASRAT REMODELING</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/animate.css">
+    <script src="scripts/jscripts.js"></script>
+</head>
+
+<body>
+    
+    <div class="backgroud">
+        <div class="menu_container">
+
+            <div class="menu_item">
+                <a class="main_title" href="index.html" target="_self">ASRAT<span class="second_title">  Remodeling</span> </a>
+            </div>
+
+            <div class="menu_item">
+                
+                <nav>
+                    <ul>
+                        <li class="dropdown"><a class="dropbtn"><i class="fas fa-home">
+                                </i> Services <i class=""></i></a>
+                                <div class="dropdown-content">
+                                    <a href="services.html#designConstraction" target="_self">Custom Design</a>
+                                    <a href="services.html#HARDSCAPINGSERVICES" target="_self">HARDSCAPING SERVICES</a>
+                                    <a href="services.html#HOMEREMODELING" target="_self">HOME REMODELING SERVICES</a>
+                                    <a href="services.html#FINISHEDBASEMENTS" target="_self">FINISHED BASEMENTS</a>
+                                    <a href="services.html#LANDSCAPES" target="_self">LANDSCAPES</a>
+                                </div>
+                        </li>
+                        <li>
+                            <a href="reservation.html"><i class="fas fa-calendar-check"> Schedule An Appointment</i> </a>
+                        </li>
+                        <li>
+                            <a href="about.html" target="_self"><i class="fas fa-address-card">ABOUT US</i> </a>
+                        </li>
+                        <li>
+                            <a href="contact.html" target="_self"><i class="fas fa-phone"> CONTACT</i> </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <div>
+            <div>
+                <p class="txt1 animated fadeInDown">
+                    Welcome to
+                </p>
+            </div>
+            <div>
+                <p class="tit1 animated fadeInUp">Asrat<br><span class="undertit1">House Remodeling</span></p>
+            </div>
+            <div>
+                <br>
+                <p class="tit1 animated fadeInUp">
+                    Contact Us
+                </p>
+            </div>
+        </div>
+        <div class="backgroundTable1">
+            <section class="ftco-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="wrapper">
+                                <div class="row no-gutters mb-5">
+                                    <div class="col-md-7">
+                                        <div class="contact-wrap w-100 p-md-5 p-4">
+                                            <form method="post" id="contactForm" name="contactForm" class="contactForm" onsubmit="event.preventDefault(); validateForm()">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="label" for="fname">Full Name</label>
+                                                            <input type="text" class="form-control" name="fname" id="fname" placeholder="Name">
+                                                            <label class="labelmsg" id="msgName"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="label" for="femail">Email Address</label>
+                                                            <input type="email" class="form-control" name="femail" id="femail" placeholder="Email">
+                                                            <label class="labelmsg" id="msgEmail"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label class="label" for="fsubject">Subject</label>
+                                                            <input type="text" class="form-control" name="fsubject" id="fsubject" placeholder="Subject">
+                                                            <label class="labelmsg" id="msgSubject"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label class="label" for="fmessage">Message</label>
+                                                            <textarea name="fmessage" class="form-control" id="fmessage" cols="30" rows="4" placeholder="Message"></textarea>
+                                                            <label class="labelmsg" id="msgMessage"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <input type="button" value="Send Message" class="btn btn-primary" onclick="validateForm()">
+                                                            <p id = "success"></p>
+
+                                                            <div class="submitting"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!--<div class="col-md-5 d-flex align-items-stretch">
+                                        <div id="map">
+                                        </div>
+                                    </div>-->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <footer>
+        <section>
+            <div class="foot_container">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fas fa-map-marker-alt fa-spin"></span>
+                    </div>
+                    <div class="text">
+                        <p><span>Address:</span> 123 First Ave N. Minneapolis MN 12345566</p>
+                    </div>
+                </div>
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fas fa-phone"></span>
+                    </div>
+                    <div class="text">
+                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1 123 456 7890</a></p>
+                    </div>
+                </div>
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fas fa-envelope"></span>
+                    </div>
+                    <div class="text">
+                        <p><span>Email:</span> <a href="#">info@asrat.com</a></p>
+                    </div>
+                </div>
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fas fa-globe"></span>
+                    </div>
+                    <div class="text">
+                        <p><span>Website:</span> <a href="#">Asrat.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
